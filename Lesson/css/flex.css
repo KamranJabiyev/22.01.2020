@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* background-color: wheat; */
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* align-content: space-between; */
+}
+
+@media screen and (max-width:762px){
+    .pink{
+        width: 50%;
+    }
+    .yellow{
+        width: 50%;
+    }
+    .green{
+        width: 50%;
+    }
+    .teal{
+        width: 50%;
+    }
+}
